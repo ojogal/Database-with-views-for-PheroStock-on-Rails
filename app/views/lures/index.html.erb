@@ -1,0 +1,19 @@
+<h1>Lures</h1>
+
+<% @lures.each do |lure| %>
+  <div>
+    <%= link_to lure.lure_by_comon_name, lure %>
+    (<%= lure.lure_by_latin_name %>)
+  </div>
+<% end %>
+<br>
+<br>
+<%= link_to "New lure", new_lure_path, class: "btn-submit" %>
+
+<br>
+<br>
+<br>
+
+<div>
+  <%= link_to "Main", '/', class: "btn-submit" %> 
+</div>

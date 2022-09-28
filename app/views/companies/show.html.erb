@@ -1,0 +1,56 @@
+<h1>Show and delete companies</h1>
+<div>
+  <h2><%= @company.company_name %></h2>
+</div>
+
+<div>
+  <h3>Lures:</h3>
+  <% @lures.each do |l| %>
+    <div>
+      <%= l.lure_by_comon_name %> 
+      (<%= l.lure_by_latin_name %>)
+    </div>
+  <% end %>
+</div>
+
+<div>
+  <h3>Traps:</h3>
+  <% @traps.each do |t| %>
+    <div>
+      <%= t.trap_type %>
+    </div>
+  <% end %>
+</div>
+
+<div>
+  <h3>Suites:</h3>
+  <% @suites.each do |s| %>
+    <div>
+      <%= s.suite_by_comon_name %> 
+      (<%= s.suite_by_latin_name %>)
+    </div>
+  <% end %>
+</div>
+
+<br>
+<br>
+
+<div>
+  <%= link_to "Edit", edit_company_path(@company), class: "btn-submit" %> 
+</div>
+
+<br>
+<br>
+
+<div>
+  <%= link_to "Destroy", company_path(@company), data: { 
+                  turbo_method: :delete,
+                  turbo_confirm: "Are you sure?" }, class: "btn-submit" %>
+</div>
+
+<br>
+<br>
+
+<div>
+  <%= link_to "Main", '/', class: "btn-submit" %> 
+</div>

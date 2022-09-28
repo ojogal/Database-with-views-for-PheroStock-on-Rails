@@ -1,0 +1,37 @@
+<h1>Show and delete lures</h1>
+<div>
+  <%= @lure.lure_by_comon_name %>
+  (<%= @lure.lure_by_latin_name %>)
+<div>
+  <br>
+<div>
+  <% @prices.each do |price| %>
+  under 100 pcs - <%= price.under_hundred %> EUR
+  <br>
+  under 1000 pcs - <%= price.under_thousand %> EUR
+  <br>
+  under 5000 pcs - <%= price.under_five_thousand %> EUR
+  <br>
+  over 5000 pcs - <%= price.over_five_thousand %> EUR
+  <% end %>
+<div>
+
+<br>
+<br>
+<div>
+  <%= link_to "Edit", edit_lure_path(@lure), class: "btn-submit" %> 
+</div>
+<br>
+<br>
+<div>
+  <%= link_to "Destroy", lure_path(@lure), data: { 
+                  turbo_method: :delete,
+                  turbo_confirm: "Are you sure?" }, class: "btn-submit" %>
+</div>
+
+<br>
+<br>
+
+<div>
+  <%= link_to "Main", '/', class: "btn-submit" %> 
+</div>

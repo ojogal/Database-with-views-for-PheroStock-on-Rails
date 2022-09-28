@@ -1,0 +1,24 @@
+<h1>Show and delete Suites</h1>
+<div>
+  <%= @suite.suite_by_comon_name %>
+  (<%= @suite.suite_by_latin_name %>)
+<div>
+<br>
+<br>
+<div>
+  <%= link_to "Edit", edit_suite_path(@suite), class: "btn-submit" %> 
+</div>
+<br>
+<br>
+<div>
+  <%= link_to "Destroy", suite_path(@suite), data: { 
+                  turbo_method: :delete,
+                  turbo_confirm: "Are you sure?" }, class: "btn-submit" %>
+</div>
+
+<br>
+<br>
+
+<div>
+  <%= link_to "Main", '/', class: "btn-submit" %> 
+</div>

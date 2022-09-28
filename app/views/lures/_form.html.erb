@@ -1,0 +1,26 @@
+<%= form_with model: lure do |f| %>
+  <div>
+    <%= f.text_field :lure_by_comon_name, :placeholder => "Comon name" %>
+    <% lure.errors.full_messages_for(:title).each do |message| %>
+      <div><%= message %></div>
+    <% end %>
+  </div>
+
+  <div>
+    <%= f.text_field :lure_by_latin_name, :placeholder => "Latin name" %>
+    <% lure.errors.full_messages_for(:title).each do |message| %>
+      <div><%= message %></div>
+    <% end %>
+  </div>
+
+  <div>
+    <%= f.submit "Add to base", class: "btn-submit" %>
+  </div>
+<% end %>
+
+<br>
+<br>
+
+<div>
+  <%= link_to "Main", '/', class: "btn-submit" %> 
+</div>

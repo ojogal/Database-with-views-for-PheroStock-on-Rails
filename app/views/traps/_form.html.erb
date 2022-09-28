@@ -1,0 +1,26 @@
+<%= form_with model: trap do |f| %>
+  <div>
+    <%= f.text_field :trap_type, :placeholder => "Trap type" %>
+    <% trap.errors.full_messages_for(:title).each do |message| %>
+      <div><%= message %></div>
+    <% end %>
+  </div>
+
+  <div>
+    <%= f.text_field :price, :placeholder => "Price" %>
+    <% trap.errors.full_messages_for(:title).each do |message| %>
+      <div><%= message %></div>
+    <% end %>
+  </div>
+
+  <div>
+    <%= f.submit "Add to base", class: "btn-submit" %>
+  </div>
+<% end %>
+
+<br>
+<br>
+
+<div>
+  <%= link_to "Main", '/', class: "btn-submit" %> 
+</div>

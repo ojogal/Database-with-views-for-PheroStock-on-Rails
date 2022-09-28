@@ -1,0 +1,19 @@
+<%= form_with model: company do |f| %>
+  <div>
+    <%= f.text_field :company_name, :placeholder => "Company name" %>
+    <% company.errors.full_messages_for(:title).each do |message| %>
+      <div><%= message %></div>
+    <% end %>
+  </div>
+
+  <div>
+    <%= f.submit "Add to base", class: "btn-submit" %>
+  </div>
+<% end %>
+
+<br>
+<br>
+
+<div>
+  <%= link_to "Main", '/', class: "btn-submit" %> 
+</div>

@@ -1,0 +1,47 @@
+<h1>Show and delete traps</h1>
+
+<div>
+<%= @trap.trap_type %>
+<% if @trap.price_one_trap %>
+  - <%= @trap.price_one_trap %> EUR
+<% end %> 
+</div>
+
+  <br>
+
+<div>
+  <% if @prices %>
+    <% @prices.each do |price| %>
+      under 100 pcs - <%= price.under_hundred %> EUR
+      <br>
+      under 1000 pcs - <%= price.under_thousand %> EUR
+      <br>
+      under 5000 pcs - <%= price.under_five_thousand %> EUR
+      <br>
+      over 5000 pcs - <%= price.over_five_thousand %> EUR
+    <% end %>
+  <% end %>
+<div>
+
+<br>
+<br>
+
+<div>
+  <%= link_to "Edit", edit_trap_path(@trap), class: "btn-submit" %> 
+</div>
+
+<br>
+<br>
+
+<div>
+  <%= link_to "Destroy", trap_path(@trap), data: { 
+                  turbo_method: :delete,
+                  turbo_confirm: "Are you sure?" }, class: "btn-submit" %>
+</div>
+
+<br>
+<br>
+
+<div>
+  <%= link_to "Main", '/', class: "btn-submit" %> 
+</div>

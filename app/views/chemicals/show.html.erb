@@ -1,0 +1,26 @@
+<h1>Show and delete chemicals</h1>
+
+<div>
+<%= @chemical.chemical_name %>
+(<%= @chemical.synonym %>)
+</div>
+<br>
+<br>
+
+<div>
+  <%= link_to "Edit", edit_chemical_path(@chemical), class: "btn-submit" %>
+</div>
+<br>
+<br>
+<div>
+  <%= link_to "Destroy", chemical_path(@chemical), data: { 
+                    turbo_method: :delete,
+                    turbo_confirm: "Are you sure?" }, class: "btn-submit" %>
+</div>
+
+<br>
+<br>
+
+<div>
+  <%= link_to "Main", '/', class: "btn-submit" %> 
+</div>

@@ -1,0 +1,26 @@
+<%= form_with model: suite do |f| %>
+  <div>
+    <%= f.text_field :suite_by_comon_name, :placeholder => "Comon name" %>
+    <% suite.errors.full_messages_for(:title).each do |message| %>
+      <div><%= message %></div>
+    <% end %>
+  </div>
+
+  <div>
+    <%= f.text_field :suite_by_latin_name, :placeholder => "Latin name" %>
+    <% suite.errors.full_messages_for(:title).each do |message| %>
+      <div><%= message %></div>
+    <% end %>
+  </div>
+
+  <div>
+    <%= f.submit "Add to base", class: "btn-submit" %>
+  </div>
+<% end %>
+
+<br>
+<br>
+
+<div>
+  <%= link_to "Main", '/', class: "btn-submit" %> 
+</div>

@@ -1,0 +1,18 @@
+<h1>Traps</h1>
+
+<% @traps.each do |trap| %>
+  <div>
+    <%= link_to trap.trap_type, trap %>
+  </div>
+<% end %>
+<br>
+<br>
+<%= link_to "New trap", new_trap_path, class: "btn-submit" %>
+
+<br>
+<br>
+<br>
+
+<div>
+  <%= link_to "Main", '/', class: "btn-submit" %> 
+</div>

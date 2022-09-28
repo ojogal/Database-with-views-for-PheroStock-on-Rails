@@ -1,0 +1,19 @@
+<h1>Chemicals</h1>
+
+  <% @chemicals.each do |chemical| %>
+    <div>
+      <%= link_to chemical.chemical_name, chemical %>
+      (<%= chemical.synonym %>)
+    </div>
+  <% end %>
+<br>
+<br>
+<%= link_to "New Chemical", new_chemical_path, class: "btn-submit" %>
+
+<br>
+<br>
+<br>
+
+<div>
+  <%= link_to "Main", '/', class: "btn-submit" %> 
+</div>
