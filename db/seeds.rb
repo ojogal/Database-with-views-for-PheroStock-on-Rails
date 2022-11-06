@@ -271,6 +271,7 @@ l256 = Lure.create(lure_by_latin_name: 'Metamasius hemipterus', lure_by_comon_na
 l257 = Lure.create(lure_by_latin_name: 'Mnesampela privata', lure_by_comon_name: 'Autumn Gum Moth', lure_by_comon_name_ru: '', company_id: c1.id)
 l258 = Lure.create(lure_by_latin_name: 'Monochamus alternatus', lure_by_comon_name: 'Japanese Pine Sawyer', lure_by_comon_name_ru: 'Усач изменчивый', company_id: c1.id)
 l259 = Lure.create(lure_by_latin_name: 'Monochamus spp.', lure_by_comon_name: 'Longhorn Beetle', lure_by_comon_name_ru: 'Усачи рода Монохамус', company_id: c1.id)
+l260 = Lure.create(lure_by_latin_name: 'Murgantia histrionica', lure_by_comon_name: 'Harlequin Bug', lure_by_comon_name_ru: 'Клоп арлекин', company_id: c1.id)
 l261 = Lure.create(lure_by_latin_name: 'Musca domestica', lure_by_comon_name: 'House fly', lure_by_comon_name_ru: 'Комнатная муха', company_id: c1.id)
 l262 = Lure.create(lure_by_latin_name: 'Mythimna (Leucania) loreyi', lure_by_comon_name: 'Lorey leafworm ', lure_by_comon_name_ru: 'Полосатая совка кукурузная', company_id: c1.id)
 l263 = Lure.create(lure_by_latin_name: 'Mythimna unipuncta', lure_by_comon_name: 'True armyworm', lure_by_comon_name_ru: 'Восточная луговая совка', company_id: c1.id)
