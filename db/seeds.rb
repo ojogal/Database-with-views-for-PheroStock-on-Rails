@@ -420,6 +420,7 @@ l405 = Lure.create(lure_by_latin_name: 'Synanthedon spuleri', lure_by_comon_name
 l406 = Lure.create(lure_by_latin_name: 'Synanthedon tipuliformis', lure_by_comon_name: 'Currant Clearwing Moth', lure_by_comon_name_ru: 'Смородинная стеклянница', company_id: c1.id)
 l407 = Lure.create(lure_by_latin_name: 'Synanthedon vespiformis', lure_by_comon_name: 'Yellowlegged clearwing moth', lure_by_comon_name_ru: '', company_id: c1.id)
 l408 = Lure.create(lure_by_latin_name: 'Syndemis musculana', lure_by_comon_name: 'Autumn leafroller', lure_by_comon_name_ru: '', company_id: c1.id)
+l409 = Lure.create(lure_by_latin_name: 'Taphrorychus bicolor', lure_by_comon_name: 'Beech Bark Beetle', lure_by_comon_name_ru: 'Жук узкотелка короед двухцветный', company_id: c1.id)
 l410 = Lure.create(lure_by_latin_name: 'Tecia solanivora (Scrobipalpopsis)', lure_by_comon_name: 'Guatemalan potato moth', lure_by_comon_name_ru: 'Гватемальская картофельная моль', company_id: c1.id)
 l411 = Lure.create(lure_by_latin_name: 'Tetropium fuscum', lure_by_comon_name: 'Spruce Longhorn Beetle', lure_by_comon_name_ru: 'Матовогрудый усач', company_id: c1.id)
 l412 = Lure.create(lure_by_latin_name: 'Thaumatotibia leucotreta (Cryptophlebia)', lure_by_comon_name: 'False codling moth', lure_by_comon_name_ru: 'Фальшивая яблонная плодожорка', company_id: c1.id)
