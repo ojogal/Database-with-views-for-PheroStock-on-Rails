@@ -362,6 +362,7 @@ l347 = Lure.create(lure_by_latin_name: 'Rhynchophorus ferrugineus', lure_by_como
 l348 = Lure.create(lure_by_latin_name: 'Rhynchophorus palmarum', lure_by_comon_name: 'South American Palm Weevil', lure_by_comon_name_ru: 'Южноамериканский', company_id: c1.id)
 l349 = Lure.create(lure_by_latin_name: 'Rhyzopertha dominica', lure_by_comon_name: 'Lesser grain borer', lure_by_comon_name_ru: 'Зерновой точильщик', company_id: c1.id)
 l350 = Lure.create(lure_by_latin_name: 'Riptortus clavatus', lure_by_comon_name: 'Bean bug', lure_by_comon_name_ru: 'Бобовый жук', company_id: c1.id)
+l351 = Lure.create(lure_by_latin_name: 'Sabulodes aegrotata', lure_by_comon_name: 'Omnivorous Looper', lure_by_comon_name_ru: 'Всеядная пяденица', company_id: c1.id)
 l352 = Lure.create(lure_by_latin_name: 'Sahlbergella singularis', lure_by_comon_name: 'Cocoa mirid', lure_by_comon_name_ru: 'Какаовая моль', company_id: c1.id)
 l353 = Lure.create(lure_by_latin_name: 'Saturnia mendocino', lure_by_comon_name: 'Mendocino saturnia moth', lure_by_comon_name_ru: 'Сатурния павлиноглазка', company_id: c1.id)
 l354 = Lure.create(lure_by_latin_name: 'Saturnia pavonia', lure_by_comon_name: 'Small emperor moth', lure_by_comon_name_ru: 'Павлиноглазка малая', company_id: c1.id)
