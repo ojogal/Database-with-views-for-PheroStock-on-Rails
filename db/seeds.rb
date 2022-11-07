@@ -432,6 +432,7 @@ l417 = Lure.create(lure_by_latin_name: 'Tomicus minor', lure_by_comon_name: 'Sma
 l418 = Lure.create(lure_by_latin_name: 'Tomicus piniperda', lure_by_comon_name: 'Larger Pine Shoot Beetle', lure_by_comon_name_ru: 'Большой сосновый лубоед', company_id: c1.id)
 l419 = Lure.create(lure_by_latin_name: 'Tortix viridana', lure_by_comon_name: 'European Oak Leafroller', lure_by_comon_name_ru: 'Листовертка зеленая дубовая', company_id: c1.id)
 l420 = Lure.create(lure_by_latin_name: 'Tribolium spp.', lure_by_comon_name: 'Жуки рода Триболиум', lure_by_comon_name_ru: '', company_id: c1.id)
+l421 = Lure.create(lure_by_latin_name: 'Trichopherus campestris', lure_by_comon_name: 'Velvet Longhorn Beetle', lure_by_comon_name_ru: 'Трихоферус востолчный', company_id: c1.id)
 l422 = Lure.create(lure_by_latin_name: 'Trichoplusia ni', lure_by_comon_name: 'Cabbage Looper', lure_by_comon_name_ru: 'Металловидка', company_id: c1.id)
 l423 = Lure.create(lure_by_latin_name: 'Trigonotylus caelestialium', lure_by_comon_name: 'Rice leaf bug', lure_by_comon_name_ru: 'Рисовый листовой жук', company_id: c1.id)
 l424 = Lure.create(lure_by_latin_name: 'Trogoderma granarium', lure_by_comon_name: 'Khapra Beetle', lure_by_comon_name_ru: 'Капровый жук', company_id: c1.id)
