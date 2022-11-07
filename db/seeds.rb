@@ -326,6 +326,7 @@ l311 = Lure.create(lure_by_latin_name: 'Platynota Flavedana', lure_by_comon_name
 l312 = Lure.create(lure_by_latin_name: 'Platynota ideausalis', lure_by_comon_name: 'Tufted Apple Budmoth', lure_by_comon_name_ru: '', company_id: c1.id)
 l313 = Lure.create(lure_by_latin_name: 'Platynota stultana', lure_by_comon_name: 'Omnivorous Leafroller', lure_by_comon_name_ru: '', company_id: c1.id)
 l314 = Lure.create(lure_by_latin_name: 'Platyptilia carduidactyla', lure_by_comon_name: 'Artichoke Plume Moth', lure_by_comon_name_ru: 'Артишоковая пальцекрылка', company_id: c1.id)
+l315 = Lure.create(lure_by_latin_name: 'Platypus quercivorus', lure_by_comon_name: 'Oak Ambrosia Beetle', lure_by_comon_name_ru: '', company_id: c1.id)
 l316 = Lure.create(lure_by_latin_name: 'Plautia stali', lure_by_comon_name: 'Brown-winged Green Bug', lure_by_comon_name_ru: 'Клоп-щитник', company_id: c1.id)
 l317 = Lure.create(lure_by_latin_name: 'Plodia interpunctella', lure_by_comon_name: 'Indian Meal Moth', lure_by_comon_name_ru: 'Южная амбарная огневка', company_id: c1.id)
 l318 = Lure.create(lure_by_latin_name: 'Plodia/Ephestia', lure_by_comon_name: 'species different stored product moths', lure_by_comon_name_ru: 'Мельничная/южная амбарная огневка и др. огневки запасов.', company_id: c1.id)
