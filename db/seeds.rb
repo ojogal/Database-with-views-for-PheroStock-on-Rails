@@ -368,6 +368,7 @@ l353 = Lure.create(lure_by_latin_name: 'Saturnia mendocino', lure_by_comon_name:
 l354 = Lure.create(lure_by_latin_name: 'Saturnia pavonia', lure_by_comon_name: 'Small emperor moth', lure_by_comon_name_ru: 'Павлиноглазка малая', company_id: c1.id)
 l355 = Lure.create(lure_by_latin_name: 'Scirpophaga incertulas', lure_by_comon_name: 'Yellow stem borer', lure_by_comon_name_ru: 'Желтая рисовая огневка', company_id: c1.id)
 l356 = Lure.create(lure_by_latin_name: 'Scirpophaga nivella', lure_by_comon_name: 'Sugarcane top borer', lure_by_comon_name_ru: 'Белая рисовая огневка', company_id: c1.id)
+l357 = Lure.create(lure_by_latin_name: 'Scolytidae beetle', lure_by_comon_name: 'Scolytid bark beetles', lure_by_comon_name_ru: 'Жуки рода Сколиту', company_id: c1.id)
 l358 = Lure.create(lure_by_latin_name: 'Scolytus schevyrewi', lure_by_comon_name: 'Banded Elm Bark Beetle', lure_by_comon_name_ru: 'Заболонник Шевырева', company_id: c1.id)
 l359 = Lure.create(lure_by_latin_name: 'Scolytus ventralis', lure_by_comon_name: 'Fir Engraver Beetle', lure_by_comon_name_ru: '', company_id: c1.id)
 l360 = Lure.create(lure_by_latin_name: 'Scrobipalpa ocellatella', lure_by_comon_name: 'Sugarbeet Moth', lure_by_comon_name_ru: '', company_id: c1.id)
